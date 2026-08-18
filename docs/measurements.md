@@ -4,6 +4,7 @@
 
 | Measurement | Node or Axis | Predicted | Measured | Notes |
 |---|---|---|---|---|
+| Speed vs duty linearity, per side | ENA / ENB | Nonlinear near bottom of range | | ENA and ENB share Timer0 with millis(); predicted duty-cycle skew at low values |
 
 ## Stage 2 — Drive calibration
 
