@@ -59,20 +59,28 @@ Serial instrumentation was decisive here: printing the commanded duty cycle prov
 | Measurement | Node or Axis | Predicted | Measured | Notes |
 |---|---|---|---|---|
 
+---
+
 ## Stage 3 — Ultrasonic sensor
 
 | Measurement | Node or Axis | Predicted | Measured | Notes |
 |---|---|---|---|---|
+
+---
 
 ## Stage 4 — Servo
 
 | Measurement | Node or Axis | Predicted | Measured | Notes |
 |---|---|---|---|---|
 
+---
+
 ## Stage 5 — Obstacle avoidance
 
 | Measurement | Node or Axis | Predicted | Measured | Notes |
 |---|---|---|---|---|
+
+---
 
 ## Stage 6 — Maze navigation
 
