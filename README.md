@@ -65,3 +65,16 @@ but the identifiers do not match the rest of the kit.
 ## Design Decisions
 
 ## Known Limitations
+
+- The battery pack switch makes contact only at a specific angle.
+  Partial contact lights the L298N indicator LED while failing to
+  supply motor current, presenting as a firmware fault. Likely to
+  recur mid-drive.
+- USB alone cannot power the board with the servo and ultrasonic
+  sensor connected; the resulting brown-out loop prevents upload.
+  The battery pack must be connected when programming.
+- Stall thresholds were measured with the wheels free and in steps
+  of 25, so they are lower bounds with ±25 resolution. Loaded
+  thresholds and a finer sweep are outstanding.
+- Speed-versus-duty linearity has not been measured. ENA and ENB
+  share Timer0 with millis(), so skew is expected at low duty.
