@@ -1,5 +1,7 @@
 # Measurement Plan
 
+---
+
 ## Stage 1 — Motor characterisation
 
 All readings taken on hardware with the chassis raised and all four wheels free. Duty cycle swept 0–255 in steps of 25, each step held for 1.5 seconds, with the commanded value printed to serial.

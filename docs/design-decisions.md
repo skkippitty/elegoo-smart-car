@@ -1,5 +1,7 @@
 # Design Decisions
 
+---
+
 ## Calibration approach
 
 ---
